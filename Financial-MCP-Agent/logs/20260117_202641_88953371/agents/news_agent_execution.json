@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-17T20:26:41.634547",
+  "start_timestamp": 1768652801.6345472,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票现在值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-17T20:28:23.124578",
+  "end_timestamp": 1768652903.1245787,
+  "execution_time_seconds": 101.48734259605408,
+  "output_data": {
+    "news_analysis_length": 1498,
+    "analysis_preview": "基于获取的茅台相关新闻数据，我将为您提供全面的新闻分析报告：\n\n## 茅台（sh.600519）新闻分析报告\n\n### 1. 关键新闻事件汇总\n\n**主要新闻事件：**\n- **2025年三季度业绩发布**：营收1309.04亿元，同比增长6.32%；净利润646.27亿元，同比增长6.25%\n- **业绩增速放缓**：第三季度营收增速仅0.56%，净利润增速0.48%，创2015年以来新低\n- **系列酒收入下降**：系列酒收入同比下降34%\n- **价格压力**：飞天茅台批发价跌破1700元/瓶\n- **机构预测**：48家机构预测2025年净利润912.01亿元，同比增长5.77%\n\n### 2. 新闻情感分析与风险评估\n\n#### 新闻1：2025年三季度业绩报告\n- **情感评分**：3分（中性）\n- **风险评估**：3分（中等风险）\n- **分析**：虽然业绩创历史新高，但增速大幅放缓，市场对增长持续性存疑\n\n#### 新闻2：系列酒收入下降34%\n- **情感评分**：2分（轻微负面）\n- **风险评估**：4分（高风险）\n- **分析**：产品结构失衡，过度依赖高端酒",
+    "llm_execution_time": 99.07628583908081,
+    "total_execution_time": 101.48734259605408
+  },
+  "success": true,
+  "error": null
+}

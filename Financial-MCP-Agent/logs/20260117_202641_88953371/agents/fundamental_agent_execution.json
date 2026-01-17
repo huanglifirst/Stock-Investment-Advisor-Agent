@@ -1,0 +1,33 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2026-01-17T20:26:41.147219",
+  "start_timestamp": 1768652801.1472192,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票现在值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-17T20:28:48.773211",
+  "end_timestamp": 1768652928.773212,
+  "execution_time_seconds": 127.62492370605469,
+  "output_data": {
+    "fundamental_analysis_length": 940,
+    "analysis_preview": "基于当前可用的数据获取工具，我注意到部分财务数据接口暂时无法正常返回格式化数据。不过，我可以为您提供贵州茅台（sh.600519）的基本面分析框架和基于公开信息的分析要点：\n\n## 贵州茅台（sh.600519）基本面分析框架\n\n### 1. 公司基本信息和行业背景\n- **公司性质**：白酒行业龙头企业，国有控股上市公司\n- **行业地位**：中国高端白酒第一品牌，具有强大的品牌护城河\n- **主营业务**：茅台酒及系列酒的生产和销售\n\n### 2. 财务分析要点（基于茅台历史表现特征）\n\n#### 盈利能力指标（典型特征）：\n- **毛利率**：通常维持在90%以上，行业领先水平\n- **净利率**：约50%左右，体现强大的定价能力\n- **ROE**：常年维持在30%以上，股东回报优异\n\n#### 成长能力指标：\n- **收入增长率**：历史平均增长率约15-20%\n- **利润增长率**：与收入增长基本同步，盈利质量高\n\n#### 运营效率指标：\n- **存货周转率**：相对较低（白酒行业特性），但存货价值稳定\n- **应收周转率**：极高，体现先款后货的强势地位\n\n#### ",
+    "llm_execution_time": 124.66782593727112,
+    "total_execution_time": 127.62492370605469
+  },
+  "success": true,
+  "error": null
+}

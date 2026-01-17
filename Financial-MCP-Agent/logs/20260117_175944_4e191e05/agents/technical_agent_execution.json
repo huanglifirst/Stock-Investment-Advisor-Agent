@@ -1,0 +1,40 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2026-01-17T17:59:45.938103",
+  "start_timestamp": 1768643985.938104,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2026-01-17T17:59:54.958114",
+  "end_timestamp": 1768643994.9581141,
+  "execution_time_seconds": 9.019013166427612,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值投资吗",
+    "current_date": "2026-01-17",
+    "current_date_cn": "2026年01月17日",
+    "current_time": "17:59:45",
+    "current_weekday_cn": "星期六",
+    "current_time_info": "2026年01月17日 (2026-01-17) 星期六 17:59:45",
+    "analysis_timestamp": "2026-01-17T17:59:45.099863",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "technical_analysis_error": "Error in MCP or agent execution: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.02 元才能完成，您的可用余额为 -0.02492881 元(请求预冻结 0.02492881 元)，请充值后再使用', 'type': 'error'}}",
+    "technical_analysis": "技术分析过程中出现错误: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.02 元才能完成，您的可用余额为 -0.02492881 元(请求预冻结 0.02492881 元)，请充值后再使用', 'type': 'error'}}"
+  },
+  "success": false,
+  "error": "Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.02 元才能完成，您的可用余额为 -0.02492881 元(请求预冻结 0.02492881 元)，请充值后再使用', 'type': 'error'}}"
+}

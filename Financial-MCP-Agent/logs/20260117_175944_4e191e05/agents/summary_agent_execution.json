@@ -1,0 +1,61 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2026-01-17T17:59:55.021033",
+  "start_timestamp": 1768643995.0210335,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值投资吗",
+    "available_analyses": {
+      "fundamental": true,
+      "technical": true,
+      "value": true,
+      "news": true
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code",
+      "technical_analysis_error",
+      "technical_analysis",
+      "news_analysis_error",
+      "news_analysis",
+      "fundamental_analysis_error",
+      "fundamental_analysis",
+      "value_analysis_error",
+      "value_analysis"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2026-01-17T17:59:55.293441",
+  "end_timestamp": 1768643995.2934415,
+  "execution_time_seconds": 0.27140307426452637,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值投资吗",
+    "current_date": "2026-01-17",
+    "current_date_cn": "2026年01月17日",
+    "current_time": "17:59:45",
+    "current_weekday_cn": "星期六",
+    "current_time_info": "2026年01月17日 (2026-01-17) 星期六 17:59:45",
+    "analysis_timestamp": "2026-01-17T17:59:45.099863",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "technical_analysis_error": "Error in MCP or agent execution: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.02 元才能完成，您的可用余额为 -0.02492881 元(请求预冻结 0.02492881 元)，请充值后再使用', 'type': 'error'}}",
+    "technical_analysis": "技术分析过程中出现错误: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.02 元才能完成，您的可用余额为 -0.02492881 元(请求预冻结 0.02492881 元)，请充值后再使用', 'type': 'error'}}",
+    "news_analysis_error": "Error in MCP or agent execution: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.025003005 元(请求预冻结 0.025003005 元)，请充值后再使用', 'type': 'error'}}",
+    "news_analysis": "新闻分析过程中出现错误: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.025003005 元(请求预冻结 0.025003005 元)，请充值后再使用', 'type': 'error'}}",
+    "fundamental_analysis_error": "Error in MCP or agent execution: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.025702 元(请求预冻结 0.025702 元)，请充值后再使用', 'type': 'error'}}",
+    "fundamental_analysis": "基本面分析过程中出现错误: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.025702 元(请求预冻结 0.025702 元)，请充值后再使用', 'type': 'error'}}",
+    "value_analysis_error": "Error in MCP or agent execution: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.025127965 元(请求预冻结 0.025127965 元)，请充值后再使用', 'type': 'error'}}",
+    "value_analysis": "估值分析过程中出现错误: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.025127965 元(请求预冻结 0.025127965 元)，请充值后再使用', 'type': 'error'}}",
+    "summary_error": "Error generating final report: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.03073164 元(请求预冻结 0.03073164 元)，请充值后再使用', 'type': 'error'}}",
+    "final_report": "\n        # Analysis Report for 茅台 (sh.600519)\n        \n        **Error encountered during report generation**: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.03073164 元(请求预冻结 0.03073164 元)，请充值后再使用', 'type': 'error'}}\n        \n        ## Available Analysis Fragments:\n        \n        - Fundamental Analysis: Available\n        - Technical Analysis: Available\n        - Value Analysis: Available\n        - News Analysis: Available\n        \n        Please review the individual analyses directly for more information.\n        ",
+    "report_path": "D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\Financial-MCP-Agent\\reports\\error_report_茅台_600519_20260117_175955.md"
+  },
+  "success": false,
+  "error": "Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.03073164 元(请求预冻结 0.03073164 元)，请充值后再使用', 'type': 'error'}}"
+}

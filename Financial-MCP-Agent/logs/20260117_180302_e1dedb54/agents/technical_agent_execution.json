@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2026-01-17T18:03:03.217916",
+  "start_timestamp": 1768644183.2179165,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-17T18:04:14.934596",
+  "end_timestamp": 1768644254.9345968,
+  "execution_time_seconds": 71.70475435256958,
+  "output_data": {
+    "technical_analysis_length": 998,
+    "analysis_preview": "基于获取到的技术面数据，我来为您详细分析贵州茅台（sh.600519）的技术指标：\n\n## 贵州茅台技术分析报告\n\n### 1. 基本信息概览\n- **股票代码**：sh.600519\n- **股票名称**：贵州茅台\n- **最新收盘价**：1,382.00元\n- **上市日期**：2001年8月27日\n\n### 2. 价格趋势分析\n- **6个月价格表现**：下跌4.23%\n- **当前价格与20日均线关系**：1,382.00元 vs 20日均线1,408.36元\n- **技术形态**：当前价格低于20日均线1.91%，显示短期偏弱趋势\n\n### 3. 关键技术指标分析\n\n#### 移动平均线分析\n- **20日均线位置**：1,408.36元\n- **价格位置**：低于20日均线，表明短期趋势偏弱\n- **技术含义**：股价在20日均线下方运行，短期面临一定压力\n\n#### 趋势判断\n- **中期趋势**：6个月下跌4.23%，显示中期调整态势\n- **短期趋势**：低于20日均线，短期偏弱\n- **关键支撑**：需要关注前期低点支撑位\n\n### 4. 成交量与技术形态\n由于数据",
+    "llm_execution_time": 69.25076079368591,
+    "total_execution_time": 71.70475435256958
+  },
+  "success": true,
+  "error": null
+}

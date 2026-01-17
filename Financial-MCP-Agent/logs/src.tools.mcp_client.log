@@ -498,3 +498,39 @@ UnboundLocalError: local variable 'tools' referenced before assignment
 2025-08-19 22:47:59 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
 2025-08-19 22:47:59 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
 2025-08-19 22:47:59 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 17:59:45 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 17:59:45 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 17:59:45 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 17:59:45 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 17:59:45 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 17:59:45 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 17:59:45 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 17:59:45 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 17:59:53 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 17:59:53 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 17:59:53 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 17:59:53 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 18:03:03 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 18:03:03 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 18:03:03 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 18:03:03 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 18:03:03 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 18:03:03 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 18:03:03 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 18:03:03 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 18:03:05 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 18:03:05 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 18:03:05 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 18:03:05 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 20:26:41 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 20:26:41 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 20:26:41 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 20:26:41 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 20:26:41 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 20:26:41 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 20:26:41 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-17 20:26:41 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-17 20:26:43 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 20:26:44 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 20:26:44 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-17 20:26:44 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.

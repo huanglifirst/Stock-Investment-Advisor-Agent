@@ -286,3 +286,49 @@ huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name
 2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
 2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/Finance/FinR1...
 2025-08-19 22:49:40 - src.agents.summary_agent - INFO - ✓ FinR1 model loaded successfully
+2026-01-17 17:59:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-17 17:59:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-17 17:59:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-17 17:59:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-17 17:59:55 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.03073164 元(请求预冻结 0.03073164 元)，请充值后再使用', 'type': 'error'}}
+Traceback (most recent call last):
+  File "D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\summary_agent.py", line 414, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+  File "E:\Anaconda2\envs\stockagent\lib\site-packages\langchain_core\language_models\chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+  File "E:\Anaconda2\envs\stockagent\lib\site-packages\langchain_core\language_models\chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+  File "E:\Anaconda2\envs\stockagent\lib\site-packages\langchain_core\language_models\chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "E:\Anaconda2\envs\stockagent\lib\site-packages\langchain_core\language_models\chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+  File "E:\Anaconda2\envs\stockagent\lib\site-packages\langchain_openai\chat_models\base.py", line 1414, in _agenerate
+    response = await self.async_client.create(**payload)
+  File "E:\Anaconda2\envs\stockagent\lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+  File "E:\Anaconda2\envs\stockagent\lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "E:\Anaconda2\envs\stockagent\lib\site-packages\openai\_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': '主账户可用余额不足，本次请求需要可用余额大于 0.03 元才能完成，您的可用余额为 -0.03073164 元(请求预冻结 0.03073164 元)，请充值后再使用', 'type': 'error'}}
+2026-01-17 17:59:55 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\error_report_茅台_600519_20260117_175955.md
+2026-01-17 18:04:59 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-17 18:04:59 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-17 18:04:59 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-17 18:04:59 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-17 18:05:46 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 48
+2026-01-17 18:05:46 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2026-01-17 18:05:46 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台(sh.600519) 综合分析报告
+
+**分析基准日期：2026年01月17日**...
+2026-01-17 18:05:46 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260117_180546.md
+2026-01-17 20:28:48 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-17 20:28:48 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-17 20:28:48 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-17 20:28:48 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-17 20:29:55 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 48
+2026-01-17 20:29:55 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2026-01-17 20:29:55 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台(sh.600519) 综合分析报告
+
+**分析基准日期：2026年01月17日**...
+2026-01-17 20:29:55 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260117_202955.md

@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2026-01-17T18:03:03.232354",
+  "start_timestamp": 1768644183.2323546,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-17T18:04:32.049602",
+  "end_timestamp": 1768644272.0496027,
+  "execution_time_seconds": 88.81624221801758,
+  "output_data": {
+    "value_analysis_length": 881,
+    "analysis_preview": "基于当前可用的数据工具，我无法直接获取贵州茅台（sh.600519）的详细财务数据和估值指标。不过，我可以为您提供茅台估值分析的一般框架和方法论：\n\n## 贵州茅台（sh.600519）估值分析框架\n\n### 1. 基本信息获取\n- **公司名称**：贵州茅台酒股份有限公司\n- **行业分类**：白酒制造业\n- **上市时间**：2001年8月27日\n- **总股本**：约12.56亿股\n\n### 2. 主要估值指标分析（需获取实际数据）\n- **市盈率（PE）**：股价/每股收益\n- **市净率（PB）**：股价/每股净资产\n- **市销率（PS）**：市值/营业收入\n- **股息收益率**：每股股息/股价\n\n### 3. 行业对比分析\n- 与白酒行业平均PE、PB、PS对比\n- 与主要竞争对手（五粮液、泸州老窖等）估值对比\n\n### 4. 历史估值趋势分析\n- 近5年PE、PB变化轨迹\n- 估值分位数分析（当前估值在历史中的位置）\n\n### 5. 股息分析\n- 历史分红记录和分红率\n- 股息收益率与无风险收益率对比\n\n### 6. 内在价值计算\n- **DCF模型**：基于未来现金",
+    "llm_execution_time": 86.39272356033325,
+    "total_execution_time": 88.81624221801758
+  },
+  "success": true,
+  "error": null
+}
