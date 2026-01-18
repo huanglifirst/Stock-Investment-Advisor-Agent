@@ -17,6 +17,7 @@ from src.utils.state_definition import AgentState
 from src.tools.mcp_client import get_mcp_tools
 from src.utils.logging_config import setup_logger, ERROR_ICON, SUCCESS_ICON, WAIT_ICON
 from src.utils.execution_logger import get_execution_logger
+from src.utils.llm_clients import get_model_name
 from dotenv import load_dotenv
 
 # 从.env文件加载环境变量
@@ -75,7 +76,7 @@ async def news_agent(state: AgentState) -> AgentState:
         # 使用API调用
         api_key = os.getenv("OPENAI_COMPATIBLE_API_KEY")
         base_url = os.getenv("OPENAI_COMPATIBLE_BASE_URL")
-        model_name = os.getenv("OPENAI_COMPATIBLE_MODEL")
+        model_name = get_model_name("NEWS_MODEL")
 
         # 验证必要的环境变量是否存在
         if not all([api_key, base_url, model_name]):
