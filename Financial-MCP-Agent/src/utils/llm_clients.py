@@ -11,6 +11,15 @@ from src.utils.logging_config import setup_logger, SUCCESS_ICON, ERROR_ICON, WAI
 logger = setup_logger('llm_clients')
 
 
+def get_model_name(agent_env_var: str, default_env_var: str = "OPENAI_COMPATIBLE_MODEL") -> str:
+    """获取指定 Agent 的模型名称，若未设置则回退到默认模型环境变量。"""
+    if agent_env_var:
+        agent_model = os.getenv(agent_env_var)
+        if agent_model:
+            return agent_model
+    return os.getenv(default_env_var)
+
+
 class LLMClient(ABC):
     """LLM 客户端抽象基类"""
 
