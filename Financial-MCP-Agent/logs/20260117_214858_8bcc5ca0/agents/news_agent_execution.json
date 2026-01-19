@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-17T21:48:59.659842",
+  "start_timestamp": 1768657739.6603892,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票现在值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-17T21:50:16.645670",
+  "end_timestamp": 1768657816.6456707,
+  "execution_time_seconds": 76.98274660110474,
+  "output_data": {
+    "news_analysis_length": 2661,
+    "analysis_preview": "根据爬取到的新闻，我们可以对每条进行简要分析。不过，由于这些新闻大多为行情页面链接，并没有提供具体的新闻内容摘要，因此情感分析和风险评估将基于有限的信息来进行。对于那些无法直接获取具体内容的链接，我们将根据标题和来源做出初步判断。\n\n1. **贵州茅台酒股份有限公司 - 入网口**\n   - **来源**: 百度新闻\n   - **内容摘要**: 这是一个关于茅台官方网站的入口，提示用户确认是否已满18岁。\n   - **情感分析**: 3（中性）\n   - **风险评估**: 1（极低风险）\n   - **潜在影响**: 对股价无直接影响。\n   - **链接**: [http://www.moutaichina.com/](http://www.moutaichina.com/)\n\n2. **贵州茅台(600519)_股票价格_行情_走势图—东方财富网**\n   - **来源**: 百度新闻\n   - **内容摘要**: 提供了贵州茅台的实时行情数据及相关的财经资讯。\n   - **情感分析**: 3（中性）\n   - **风险评估**: 1（极低风险）\n   - **潜在影响**",
+    "llm_execution_time": 72.78618216514587,
+    "total_execution_time": 76.98274660110474
+  },
+  "success": true,
+  "error": null
+}

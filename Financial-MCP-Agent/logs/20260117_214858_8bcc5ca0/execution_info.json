@@ -1,0 +1,57 @@
+{
+  "execution_id": "20260117_214858_8bcc5ca0",
+  "start_time": "2026-01-17T21:48:58.690328",
+  "start_timestamp": 1768657738.6903286,
+  "environment": {
+    "python_version": "3.10.19 | packaged by conda-forge | (main, Oct 22 2025, 22:23:22) [MSC v.1944 64 bit (AMD64)]",
+    "working_directory": "D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\Financial-MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "qwen-max",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  },
+  "end_time": "2026-01-17T21:51:59.877505",
+  "end_timestamp": 1768657919.876001,
+  "total_execution_time_seconds": 181.1856722831726,
+  "success": true,
+  "error": null,
+  "status": "completed",
+  "summary": {
+    "agents_executed": [
+      {
+        "name": "fundamental_agent",
+        "success": true,
+        "execution_time": 40.840601682662964
+      },
+      {
+        "name": "main",
+        "success": false,
+        "execution_time": 0
+      },
+      {
+        "name": "news_agent",
+        "success": true,
+        "execution_time": 76.98274660110474
+      },
+      {
+        "name": "summary_agent",
+        "success": true,
+        "execution_time": 103.22231125831604
+      },
+      {
+        "name": "technical_agent",
+        "success": true,
+        "execution_time": 41.39251708984375
+      },
+      {
+        "name": "value_agent",
+        "success": true,
+        "execution_time": 52.95200538635254
+      }
+    ],
+    "llm_interactions_count": 5,
+    "tools_used_count": 0,
+    "total_files_created": 23
+  }
+}

@@ -70,7 +70,7 @@ async def technical_agent(state: AgentState) -> AgentState:
         # 使用API调用
         api_key = os.getenv("OPENAI_COMPATIBLE_API_KEY")
         base_url = os.getenv("OPENAI_COMPATIBLE_BASE_URL")
-        model_name = get_model_name("TECHNICAL_MODEL")
+        model_name = os.getenv("OPENAI_COMPATIBLE_MODEL")
 
         # 验证必要的环境变量是否存在
         if not all([api_key, base_url, model_name]):
@@ -279,4 +279,4 @@ async def test_technical_agent():
 
 if __name__ == "__main__":
     import asyncio
-    asyncio.run(test_technical_agent()) 
+    asyncio.run(test_technical_agent())

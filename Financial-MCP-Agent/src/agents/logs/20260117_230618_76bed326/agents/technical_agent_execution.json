@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2026-01-17T23:06:18.252832",
+  "start_timestamp": 1768662378.252832,
+  "input_data": {
+    "user_query": "分析嘉友国际的技术指标",
+    "stock_code": "sh.603871",
+    "company_name": "嘉友国际",
+    "input_data_keys": [
+      "query",
+      "stock_code",
+      "company_name",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-17T23:08:39.315228",
+  "end_timestamp": 1768662519.3152285,
+  "execution_time_seconds": 141.0617537498474,
+  "output_data": {
+    "technical_analysis_length": 1089,
+    "analysis_preview": "基于嘉友国际（sh.603871）的技术分析数据，我为您提供以下详细技术指标分析：\n\n## 嘉友国际技术分析报告\n\n### 1. 股票基本信息\n- **股票代码**: sh.603871\n- **股票名称**: 嘉友国际\n- **上市日期**: 2018年2月6日\n- **最新收盘价**: 14.15元（截至2026年1月16日）\n\n### 2. 价格趋势分析\n- **6个月价格表现**: +25.33%（显著上涨趋势）\n- **20日均线**: 13.90元\n- **当前位置**: 当前价格14.15元高于20日均线1.78%，显示短期上升趋势\n\n### 3. 技术指标分析\n\n#### 趋势指标\n- **价格与均线关系**: 股价运行在20日均线之上，表明短期趋势向上\n- **趋势强度**: 6个月25.33%的涨幅表明中期趋势强劲\n\n#### 动量指标\n- **价格动量**: 持续上涨显示买盘力量较强\n- **相对强度**: 股价表现优于市场平均水平\n\n### 4. 关键技术位分析\n\n#### 支撑位\n- **主要支撑**: 20日均线13.90元附近\n- **次要支撑**: 前期",
+    "llm_execution_time": 138.63695073127747,
+    "total_execution_time": 141.0617537498474
+  },
+  "success": true,
+  "error": null
+}

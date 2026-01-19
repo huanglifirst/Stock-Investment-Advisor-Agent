@@ -67,25 +67,25 @@ def truncate_report_at_baseline_time(report_content: str, current_time_info: str
             return truncated_content
     
     # 如果没有找到匹配的模式，尝试查找包含时间信息的行
-    time_patterns = [
-        rf'.*{re.escape(current_time_info)}.*',
-        rf'.*{re.escape(current_time_info.split()[0])}.*',  # 只匹配日期部分
-        rf'.*{re.escape(current_time_info.split()[1])}.*'   # 只匹配时间部分
-    ]
-    
-    for pattern in time_patterns:
-        match = re.search(pattern, report_content, re.MULTILINE | re.IGNORECASE)
-        if match:
-            end_pos = match.end()
-            line_end = report_content.find('\n', end_pos)
-            if line_end == -1:
-                truncated_content = report_content[:end_pos].strip()
-            else:
-                truncated_content = report_content[:line_end].strip()
-            
-            logger.info(f"截断报告在时间信息行之后，截断位置: {end_pos}")
-            return truncated_content
-    
+    # time_patterns = [
+    #     rf'.*{re.escape(current_time_info)}.*',
+    #     rf'.*{re.escape(current_time_info.split()[0])}.*',  # 只匹配日期部分
+    #     rf'.*{re.escape(current_time_info.split()[1])}.*'   # 只匹配时间部分
+    # ]
+    #
+    # for pattern in time_patterns:
+    #     match = re.search(pattern, report_content, re.MULTILINE | re.IGNORECASE)
+    #     if match:
+    #         end_pos = match.end()
+    #         line_end = report_content.find('\n', end_pos)
+    #         if line_end == -1:
+    #             truncated_content = report_content[:end_pos].strip()
+    #         else:
+    #             truncated_content = report_content[:line_end].strip()
+    #
+    #         logger.info(f"截断报告在时间信息行之后，截断位置: {end_pos}")
+    #         return truncated_content
+
     # 如果都没有找到，返回原始内容
     logger.warning("未找到'分析基准时间'模式，返回原始报告内容")
     return report_content

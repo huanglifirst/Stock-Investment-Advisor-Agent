@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-17T21:58:47.005936",
+  "start_timestamp": 1768658327.0059364,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票现在值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-17T22:01:15.555122",
+  "end_timestamp": 1768658475.5551226,
+  "execution_time_seconds": 148.53596806526184,
+  "output_data": {
+    "news_analysis_length": 1244,
+    "analysis_preview": "基于获取的新闻数据，我将为您对贵州茅台（sh.600519）进行全面的新闻分析：\n\n## 📊 贵州茅台新闻分析报告\n\n### 1. 关键新闻事件识别\n\n**主要新闻事件：**\n- **2026年市场化运营方案发布**（1月13日）：茅台推出重大营销改革方案\n- **价格机制改革**：建立\"随行就市、相对平稳\"的动态价格调整机制\n- **渠道布局优化**：构建五大渠道并行体系\n- **产品结构调整**：回归\"金字塔\"型产品结构\n\n### 2. 新闻情感分析与风险评估\n\n#### **核心新闻分析：**\n\n**新闻1：2026年市场化运营方案正式出炉**\n- **情感评分：4.5/5（正面）**\n- **风险评分：2/5（低风险）**\n- **分析**：方案体现了茅台积极应对市场变化的决心，市场化转型有助于提升竞争力\n\n**新闻2：价格机制动态化改革**\n- **情感评分：4/5（正面）**\n- **风险评分：3/5（中等风险）**\n- **分析**：价格灵活性增强，但需关注价格波动对品牌定位的影响\n\n**新闻3：渠道布局优化**\n- **情感评分：4/5（正面）**\n- **风险评分：2",
+    "llm_execution_time": 144.76847529411316,
+    "total_execution_time": 148.53596806526184
+  },
+  "success": true,
+  "error": null
+}

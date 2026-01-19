@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2026-01-17T21:58:47.022868",
+  "start_timestamp": 1768658327.0228684,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票现在值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-17T22:02:18.393016",
+  "end_timestamp": 1768658538.393016,
+  "execution_time_seconds": 211.3681354522705,
+  "output_data": {
+    "technical_analysis_length": 1174,
+    "analysis_preview": "由于数据获取遇到技术问题，我将基于可用的分析工具为您提供茅台（sh.600519）的技术分析框架。虽然无法直接获取实时K线数据，但我可以为您提供完整的技术分析方法和步骤：\n\n## 茅台（sh.600519）技术分析框架\n\n### 1. 基本信息获取\n- **股票代码**: sh.600519\n- **公司名称**: 贵州茅台\n- **行业**: 白酒制造\n- **上市日期**: 2001-08-27\n\n### 2. 技术分析核心要素\n\n#### 价格趋势分析\n- **趋势判断**: 需要查看3-6个月的日线数据\n- **关键价位**: 历史高点和低点\n- **趋势线**: 支撑线和阻力线绘制\n\n#### 成交量分析\n- **量价关系**: 价格上涨时的成交量变化\n- **异常放量**: 识别关键位置的成交量异动\n- **成交量趋势**: 整体成交量变化趋势\n\n### 3. 主要技术指标计算\n\n#### 移动平均线（MA）\n- **短期MA**: 5日、10日、20日均线\n- **中期MA**: 30日、60日均线  \n- **长期MA**: 120日、250日均线\n- **金叉死叉**",
+    "llm_execution_time": 207.66003251075745,
+    "total_execution_time": 211.3681354522705
+  },
+  "success": true,
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2026-01-17T20:53:00.519654",
+  "start_timestamp": 1768654380.519654,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票现在值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-17T20:55:06.261525",
+  "end_timestamp": 1768654506.261526,
+  "execution_time_seconds": 125.73881101608276,
+  "output_data": {
+    "value_analysis_length": 946,
+    "analysis_preview": "由于数据获取遇到技术问题，我将基于茅台（sh.600519）的典型特征和白酒行业的一般估值标准进行分析。请注意以下分析基于行业普遍认知，而非实时数据：\n\n## 贵州茅台（sh.600519）估值分析\n\n### 1. 公司基本信息（基于行业认知）\n- **股票代码**：sh.600519\n- **行业**：白酒制造\n- **市值**：通常为A股市场前列（万亿级别）\n- **股价**：高端白酒龙头，股价相对较高\n\n### 2. 主要估值指标分析\n\n**市盈率（PE）**：\n- 茅台PE通常高于行业平均（25-40倍区间）\n- 高端白酒的稀缺性和品牌溢价支撑较高估值\n\n**市净率（PB）**：\n- 通常维持在8-15倍，反映强大的品牌价值和盈利能力\n- 远高于一般消费品公司\n\n**市销率（PS）**：\n- 相对较高，反映高毛利率特征\n\n### 3. 与行业对比\n- **估值溢价明显**：茅台估值通常显著高于白酒行业平均\n- **合理性**：品牌护城河、定价权、稳定的现金流支撑高估值\n\n### 4. 历史估值趋势\n- **稳定性**：估值水平相对稳定，波动较小\n- **周期性**：受宏观经济和",
+    "llm_execution_time": 123.17468857765198,
+    "total_execution_time": 125.73881101608276
+  },
+  "success": true,
+  "error": null
+}

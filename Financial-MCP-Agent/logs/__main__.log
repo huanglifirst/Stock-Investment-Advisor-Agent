@@ -262,3 +262,71 @@ FileNotFoundError: [WinError 2] 系统找不到指定的文件。
 2026-01-17 20:26:41 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票现在值得投资吗'
 2026-01-17 20:29:55 - __main__ - INFO - Workflow execution completed successfully
 2026-01-17 20:29:55 - __main__ - INFO - Report saved to: D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260117_202955.md
+2026-01-17 20:52:59 - __main__ - INFO - Environment Variables Loaded:
+2026-01-17 20:52:59 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: deepseek-chat
+2026-01-17 20:52:59 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://api.openai-proxy.org/v1
+2026-01-17 20:52:59 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2026-01-17 20:52:59 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs\20260117_205259_6e43deab
+2026-01-17 20:53:00 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2026-01-17 20:53:00 - __main__ - INFO - 当前时间: 2026年01月17日 (2026-01-17) 星期六 20:53:00
+2026-01-17 20:53:00 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票现在值得投资吗'
+2026-01-17 20:56:13 - __main__ - INFO - Workflow execution completed successfully
+2026-01-17 20:56:13 - __main__ - INFO - Report saved to: D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260117_205613.md
+2026-01-17 21:48:58 - __main__ - INFO - Environment Variables Loaded:
+2026-01-17 21:48:58 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: qwen-max
+2026-01-17 21:48:58 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-17 21:48:58 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2026-01-17 21:48:58 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs\20260117_214858_8bcc5ca0
+2026-01-17 21:48:58 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2026-01-17 21:48:58 - __main__ - INFO - 当前时间: 2026年01月17日 (2026-01-17) 星期六 21:48:58
+2026-01-17 21:48:58 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票现在值得投资吗'
+2026-01-17 21:51:59 - __main__ - INFO - Workflow execution completed successfully
+2026-01-17 21:51:59 - __main__ - INFO - Report saved to: D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260117_215159.md
+2026-01-17 21:57:29 - __main__ - INFO - Environment Variables Loaded:
+2026-01-17 21:57:29 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: deepseek-chat
+2026-01-17 21:57:29 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-17 21:57:29 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2026-01-17 21:57:29 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs\20260117_215729_a94cc8f2
+2026-01-17 21:57:29 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2026-01-17 21:57:29 - __main__ - INFO - 当前时间: 2026年01月17日 (2026-01-17) 星期六 21:57:29
+2026-01-17 21:57:29 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票现在值得投资吗'
+2026-01-17 21:57:34 - __main__ - INFO - Workflow execution completed successfully
+2026-01-17 21:57:34 - __main__ - INFO - Report saved to: D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\error_report_茅台_600519_20260117_215734.md
+2026-01-17 21:58:46 - __main__ - INFO - Environment Variables Loaded:
+2026-01-17 21:58:46 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: deepseek-chat
+2026-01-17 21:58:46 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://api.openai-proxy.org/v1
+2026-01-17 21:58:46 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2026-01-17 21:58:46 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs\20260117_215846_4cf1fe66
+2026-01-17 21:58:46 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2026-01-17 21:58:46 - __main__ - INFO - 当前时间: 2026年01月17日 (2026-01-17) 星期六 21:58:46
+2026-01-17 21:58:46 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票现在值得投资吗'
+2026-01-17 22:06:37 - __main__ - INFO - Workflow execution completed successfully
+2026-01-17 22:06:37 - __main__ - INFO - Report saved to: D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260117_220637.md
+2026-01-17 23:06:18 - __main__ - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2026-01-17 23:06:18 - __main__ - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-17 23:06:18 - __main__ - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2026-01-17 23:06:20 - __main__ - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2026-01-17 23:06:20 - __main__ - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2026-01-17 23:06:20 - __main__ - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2026-01-17 23:06:20 - __main__ - INFO - Agent input: 请分析嘉友国际（股票代码：sh.603871）的技术指标。
+
+当前时间：2026年01月17日 (2026-01-17) 星期六 23:06:18
+当前日期：2026-01-17
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2026-01-17 23:06:20 - __main__ - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2026-01-17 23:08:39 - __main__ - INFO - ReAct agent execution completed in 138.64 seconds
+2026-01-17 23:08:39 - __main__ - INFO - Successfully extracted analysis from AI message.
+2026-01-17 23:08:39 - __main__ - INFO - Final extracted analysis length: 1089 characters
+2026-01-17 23:08:39 - __main__ - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
