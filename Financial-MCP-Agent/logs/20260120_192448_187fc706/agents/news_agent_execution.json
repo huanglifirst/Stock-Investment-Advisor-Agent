@@ -1,0 +1,42 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-20T19:24:48.525041",
+  "start_timestamp": 1768908288.5250416,
+  "input_data": {
+    "user_query": "帮我看看湖南白银(002716)这只股票值投资吗",
+    "stock_code": "sz.002716",
+    "company_name": "湖南白银",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2026-01-20T19:24:51.310267",
+  "end_timestamp": 1768908291.3102674,
+  "execution_time_seconds": 2.783228635787964,
+  "output_data": {
+    "query": "帮我看看湖南白银(002716)这只股票值投资吗",
+    "current_date": "2026-01-20",
+    "current_date_cn": "2026年01月20日",
+    "current_time": "19:24:48",
+    "current_weekday_cn": "星期二",
+    "current_time_info": "2026年01月20日 (2026-01-20) 星期二 19:24:48",
+    "analysis_timestamp": "2026-01-20T19:24:48.123646",
+    "company_name": "湖南白银",
+    "stock_code": "sz.002716",
+    "fundamental_analysis_error": "Error in MCP or agent execution: The first argument must be a string or a callable with a __name__ for tool decorator. Got <class 'src.tools.mcp_client.LoggedMCPTool'>",
+    "fundamental_analysis": "基本面分析过程中出现错误: The first argument must be a string or a callable with a __name__ for tool decorator. Got <class 'src.tools.mcp_client.LoggedMCPTool'>",
+    "news_analysis_error": "Error in MCP or agent execution: The first argument must be a string or a callable with a __name__ for tool decorator. Got <class 'src.tools.mcp_client.LoggedMCPTool'>",
+    "news_analysis": "新闻分析过程中出现错误: The first argument must be a string or a callable with a __name__ for tool decorator. Got <class 'src.tools.mcp_client.LoggedMCPTool'>"
+  },
+  "success": false,
+  "error": "The first argument must be a string or a callable with a __name__ for tool decorator. Got <class 'src.tools.mcp_client.LoggedMCPTool'>"
+}
