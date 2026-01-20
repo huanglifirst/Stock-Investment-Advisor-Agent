@@ -12,82 +12,11 @@ _mcp_client_instance = None
 _mcp_tools = None
 
 
-class LoggedMCPTool:
-    """为MCP工具记录请求与响应日志的包装器"""
-
-    def __init__(self, tool):
-        self._tool = tool
-
-    def __getattr__(self, item):
-        return getattr(self._tool, item)
-
-    @property
-    def name(self):
-        return getattr(self._tool, "name", self._tool.__class__.__name__)
-
-    @property
-    def description(self):
-        return getattr(self._tool, "description", "")
-
-    def _normalize_input(self, tool_input):
-        if isinstance(tool_input, dict):
-            return tool_input
-        return {"input": tool_input}
-
-    def invoke(self, tool_input, **kwargs):
-        execution_logger = get_execution_logger()
-        start_time = time.time()
-        try:
-            output = self._tool.invoke(tool_input, **kwargs)
-            execution_logger.log_tool_usage(
-                agent_name="mcp_client",
-                tool_name=self.name,
-                tool_input=self._normalize_input(tool_input),
-                tool_output=output,
-                execution_time=time.time() - start_time,
-                success=True
-            )
-            return output
-        except Exception as error:
-            execution_logger.log_tool_usage(
-                agent_name="mcp_client",
-                tool_name=self.name,
-                tool_input=self._normalize_input(tool_input),
-                tool_output=str(error),
-                execution_time=time.time() - start_time,
-                success=False,
-                error=str(error)
-            )
-            raise
-
-    async def ainvoke(self, tool_input, **kwargs):
-        execution_logger = get_execution_logger()
-        start_time = time.time()
-        try:
-            if hasattr(self._tool, "ainvoke"):
-                output = await self._tool.ainvoke(tool_input, **kwargs)
-            else:
-                output = self._tool.invoke(tool_input, **kwargs)
-            execution_logger.log_tool_usage(
-                agent_name="mcp_client",
-                tool_name=self.name,
-                tool_input=self._normalize_input(tool_input),
-                tool_output=output,
-                execution_time=time.time() - start_time,
-                success=True
-            )
-            return output
-        except Exception as error:
-            execution_logger.log_tool_usage(
-                agent_name="mcp_client",
-                tool_name=self.name,
-                tool_input=self._normalize_input(tool_input),
-                tool_output=str(error),
-                execution_time=time.time() - start_time,
-                success=False,
-                error=str(error)
-            )
-            raise
+def _unwrap_tool(tool):
+    """兼容旧的工具包装器，确保返回原始可用工具。"""
+    if tool.__class__.__name__ == "LoggedMCPTool" and hasattr(tool, "_tool"):
+        return tool._tool
+    return tool
 
 
 def print_tool_details(tools):
@@ -140,7 +69,7 @@ async def get_mcp_tools():
             _mcp_tools = []  # Cache empty list on failure to load
             return []
 
-        _mcp_tools = [LoggedMCPTool(tool) for tool in loaded_tools]
+        _mcp_tools = [_unwrap_tool(tool) for tool in loaded_tools]
         logger.info(
             f"{SUCCESS_ICON} Successfully loaded {len(_mcp_tools)} tools from 'a_share_mcp_v2'.")
 
