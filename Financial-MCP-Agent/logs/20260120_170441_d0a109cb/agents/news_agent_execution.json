@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-20T17:04:41.854206",
+  "start_timestamp": 1768899881.854207,
+  "input_data": {
+    "user_query": "帮我看看湖南白银(002716)这只股票值投资吗",
+    "stock_code": "sz.002716",
+    "company_name": "湖南白银",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-20T17:05:52.363389",
+  "end_timestamp": 1768899952.363389,
+  "execution_time_seconds": 70.5071713924408,
+  "output_data": {
+    "news_analysis_length": 1848,
+    "analysis_preview": "基于获取的新闻数据，我将为您提供湖南白银（sz.002716）的全面新闻分析报告：\n\n## 湖南白银（sz.002716）新闻分析报告\n\n### 1. 关键新闻事件分析\n\n#### 新闻1：2025年三季度业绩报告\n- **内容概要**：2025年10月31日发布三季报，营收85.94亿元（+59.56%），净利润1.59亿元（+28.44%）\n- **情感分析**：4分（正面）\n- **风险评估**：2分（低风险）\n- **股价影响**：业绩大幅增长，对股价有积极支撑作用\n\n#### 新闻2：2025年中报业绩\n- **内容概要**：2025年8月27日发布中报，营收45.29亿元（+35.59%），净利润6219.69万元（+7.01%）\n- **情感分析**：3.5分（中性偏正面）\n- **风险评估**：2分（低风险）\n- **股价影响**：稳健增长，但第二季度净利润同比下降35.95%需关注\n\n#### 新闻3：核心产品认证与市场拓展\n- **内容概要**：\"金贵牌\"高纯银锭获国际认证，远销欧美、日韩等国际市场\n- **情感分析**：4.5分（极正面）\n- **风险评估**：1",
+    "llm_execution_time": 67.56618452072144,
+    "total_execution_time": 70.5071713924408
+  },
+  "success": true,
+  "error": null
+}

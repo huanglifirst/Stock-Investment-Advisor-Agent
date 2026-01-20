@@ -1,0 +1,33 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2026-01-20T17:04:41.360556",
+  "start_timestamp": 1768899881.3605566,
+  "input_data": {
+    "user_query": "帮我看看湖南白银(002716)这只股票值投资吗",
+    "stock_code": "sz.002716",
+    "company_name": "湖南白银",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-20T17:05:57.656449",
+  "end_timestamp": 1768899957.6564498,
+  "execution_time_seconds": 76.29437899589539,
+  "output_data": {
+    "fundamental_analysis_length": 879,
+    "analysis_preview": "基于目前可用的数据源，我遇到了获取湖南白银（sz.002716）具体财务数据的困难。不过，我可以为您提供基于一般白银行业和公司基本面分析框架的指导性分析。\n\n## 湖南白银（sz.002716）基本面分析框架\n\n### 1. 公司基本信息和行业背景\n- **公司性质**：湖南白银主要从事白银及相关有色金属的开采、冶炼和销售\n- **行业特点**：贵金属行业，受国际银价波动影响较大\n- **市场地位**：区域性白银生产企业\n\n### 2. 基本面分析要点\n\n#### 盈利能力指标分析（建议关注）：\n- **毛利率**：反映白银生产成本控制能力\n- **净利率**：体现整体盈利水平\n- **ROE（净资产收益率）**：衡量股东权益回报率\n\n#### 成长能力指标：\n- **收入增长率**：反映业务扩张速度\n- **利润增长率**：体现盈利增长质量\n- **资产增长率**：显示公司规模扩张情况\n\n#### 运营效率指标：\n- **存货周转率**：衡量库存管理效率\n- **应收账款周转率**：反映资金回收速度\n- **总资产周转率**：评估资产使用效率\n\n#### 偿债能力指标：\n- **资产",
+    "llm_execution_time": 72.91494750976562,
+    "total_execution_time": 76.29437899589539
+  },
+  "success": true,
+  "error": null
+}

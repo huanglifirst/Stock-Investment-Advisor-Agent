@@ -1,6 +1,0 @@
-{
-  "timestamp": "2026-01-17T21:57:34.481316",
-  "report_path": "D:\\Sheyi\\丁师兄大模型\\股票投资顾问Agent\\Finance\\Financial-MCP-Agent\\reports\\error_report_茅台_600519_20260117_215734.md",
-  "report_length": 664,
-  "report_preview": "\n        # Analysis Report for 茅台 (sh.600519)\n        \n        **Error encountered during report generation**: Error code: 404 - {'error': {'message': 'The model `deepseek-chat` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}, 'request_id': 'dd54fc12-1154-9082-9681-95a26f552cae'}\n        \n        ## Available Analysis Fragments:\n        \n        - Fundamental Analysis: Available\n        - Technical Analysis: Available\n        - Value Analysis: Available\n        - News Analysis: Available\n        \n        Please review the individual analyses directly for more information.\n        "
-}

@@ -415,3 +415,21 @@ openai.NotFoundError: Error code: 404 - {'error': {'message': 'The model `deepse
 
 ...
 2026-01-17 22:06:37 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260117_220637.md
+2026-01-20 17:13:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-20 17:13:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-20 17:13:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-20 17:13:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-20 17:14:41 - src.agents.summary_agent - WARNING - 未找到'分析基准时间'模式，返回原始报告内容
+2026-01-20 17:14:41 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 湖南白银 (sz.002716).
+2026-01-20 17:14:41 - src.agents.summary_agent - DEBUG - Final report preview: # 湖南白银(sz.002716) 综合分析报告
+
+**分析基准日期：2026年01月20日**
+
+## 执行摘要
+
+基于2026年1月20日的综合分析，湖南白银当前呈现强劲的技术走势和积极的新闻面支撑，但基本面数据获取存在限制。该股票在过去6个月内涨幅超过133%，显示强烈的多头趋势。考虑到贵金属行业的周期性特征和公司业绩的持续增长，给予**中等风险、谨慎乐观**的投资评级，预期短期内有5-15%的上涨空间。
+
+## 公司概况
+
+湖南白银主要从事白银及相关有色金属的开采、冶炼和销售业务，是区域性白银生产企业。公司核心产品"金贵牌"高纯银锭已获得国际认证，远销欧美、日韩等国际市场。作为贵金属行...
+2026-01-20 17:14:41 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_湖南白银_002716_20260120_171441.md

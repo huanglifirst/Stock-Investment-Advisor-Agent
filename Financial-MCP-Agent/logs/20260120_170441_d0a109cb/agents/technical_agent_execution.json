@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2026-01-20T17:04:41.858208",
+  "start_timestamp": 1768899881.8582082,
+  "input_data": {
+    "user_query": "帮我看看湖南白银(002716)这只股票值投资吗",
+    "stock_code": "sz.002716",
+    "company_name": "湖南白银",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-20T17:13:55.047535",
+  "end_timestamp": 1768900435.047536,
+  "execution_time_seconds": 553.1873302459717,
+  "output_data": {
+    "technical_analysis_length": 983,
+    "analysis_preview": "基于获取到的技术分析数据，我来为您详细分析湖南白银（sz.002716）的技术指标：\n\n## 湖南白银（sz.002716）技术分析报告\n\n### 1. 股票基本信息\n- **股票代码**: sz.002716\n- **股票名称**: 湖南白银\n- **上市日期**: 2014年1月28日\n- **最新收盘价**: 11.27元\n\n### 2. 价格趋势分析\n- **6个月价格表现**: +133.33%（显著上涨）\n- **当前价格相对20日均线**: +40.59%（大幅高于均线）\n\n### 3. 技术指标分析\n\n#### 趋势分析\n- **强势上涨趋势**: 6个月内涨幅超过133%，显示强烈的多头趋势\n- **均线支撑**: 当前价格远高于20日均线（8.02元），表明短期趋势强劲\n\n#### 价格位置分析\n- 从技术角度看，股价已大幅上涨，可能存在获利回吐压力\n- 当前价位相对较高，需要关注是否能够维持上涨动能\n\n### 4. 成交量与技术形态\n（由于数据获取限制，无法提供具体的成交量变化和MACD、RSI等详细技术指标）\n\n### 5. 支撑位与阻力位分析\n- **主要支撑",
+    "llm_execution_time": 550.3499510288239,
+    "total_execution_time": 553.1873302459717
+  },
+  "success": true,
+  "error": null
+}

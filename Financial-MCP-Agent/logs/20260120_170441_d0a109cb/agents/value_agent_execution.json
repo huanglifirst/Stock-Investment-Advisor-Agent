@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2026-01-20T17:04:41.862242",
+  "start_timestamp": 1768899881.8622422,
+  "input_data": {
+    "user_query": "帮我看看湖南白银(002716)这只股票值投资吗",
+    "stock_code": "sz.002716",
+    "company_name": "湖南白银",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-20T17:05:20.582517",
+  "end_timestamp": 1768899920.5825179,
+  "execution_time_seconds": 38.70726299285889,
+  "output_data": {
+    "value_analysis_length": 831,
+    "analysis_preview": "我来为您分析湖南白银（sz.002716）的估值情况。由于当前数据接口存在技术问题，我将基于可用的工具为您提供估值分析框架和关键指标的计算方法。\n\n## 湖南白银（sz.002716）估值分析框架\n\n### 1. 估值指标分析要点\n\n**主要估值指标：**\n- 市盈率（P/E）：股价/每股收益\n- 市净率（P/B）：股价/每股净资产  \n- 市销率（P/S）：市值/营业收入\n- 股息收益率：年度股息/股价\n\n### 2. 历史估值趋势分析方法\n\n**时间范围建议：**\n- 短期：2025年至今（近1年）\n- 中期：2023-2025年（3年）\n- 长期：2020-2025年（5年）\n\n### 3. 行业对比分析维度\n\n**贵金属行业关键对比指标：**\n- 行业平均P/E比率\n- 行业平均P/B比率\n- 行业平均股息收益率\n- 同规模公司估值水平\n\n### 4. 内在价值计算方法\n\n**常用估值模型：**\n- 现金流折现模型（DCF）\n- 相对估值法（同业比较）\n- 资产基础估值法（净资产价值）\n\n### 5. 当前数据获取建议\n\n由于当前数据接口暂时无法使用，建议您：\n\n1. **通过",
+    "llm_execution_time": 35.84045433998108,
+    "total_execution_time": 38.70726299285889
+  },
+  "success": true,
+  "error": null
+}

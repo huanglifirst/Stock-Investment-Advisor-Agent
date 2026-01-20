@@ -4,7 +4,7 @@ import backoff
 from abc import ABC, abstractmethod
 from dotenv import load_dotenv
 from openai import OpenAI
-from google import genai
+
 from src.utils.logging_config import setup_logger, SUCCESS_ICON, ERROR_ICON, WAIT_ICON
 
 # 设置日志记录
@@ -31,6 +31,7 @@ class LLMClient(ABC):
 
 class GeminiClient(LLMClient):
     """Google Gemini API 客户端"""
+    from google import genai
 
     def __init__(self, api_key=None, model=None):
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")

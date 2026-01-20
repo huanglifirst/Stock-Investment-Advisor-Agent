@@ -330,3 +330,13 @@ FileNotFoundError: [WinError 2] 系统找不到指定的文件。
 2026-01-17 23:08:39 - __main__ - INFO - Successfully extracted analysis from AI message.
 2026-01-17 23:08:39 - __main__ - INFO - Final extracted analysis length: 1089 characters
 2026-01-17 23:08:39 - __main__ - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2026-01-20 17:04:41 - __main__ - INFO - Environment Variables Loaded:
+2026-01-20 17:04:41 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: deepseek-chat
+2026-01-20 17:04:41 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://api.openai-proxy.org/v1
+2026-01-20 17:04:41 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2026-01-20 17:04:41 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs\20260120_170441_d0a109cb
+2026-01-20 17:04:41 - __main__ - INFO - 从查询中提取 - 公司名称: 湖南白银, 股票代码: 002716
+2026-01-20 17:04:41 - __main__ - INFO - 当前时间: 2026年01月20日 (2026-01-20) 星期二 17:04:41
+2026-01-20 17:04:41 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看湖南白银(002716)这只股票值投资吗'
+2026-01-20 17:14:41 - __main__ - INFO - Workflow execution completed successfully
+2026-01-20 17:14:41 - __main__ - INFO - Report saved to: D:\Sheyi\丁师兄大模型\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_湖南白银_002716_20260120_171441.md
