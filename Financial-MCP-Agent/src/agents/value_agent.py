@@ -18,6 +18,7 @@ from src.tools.mcp_client import get_mcp_tools
 from src.utils.logging_config import setup_logger, ERROR_ICON, SUCCESS_ICON, WAIT_ICON
 from src.utils.execution_logger import get_execution_logger
 from src.utils.llm_clients import get_model_name
+from src.utils.tool_logging import ToolUsageCallbackHandler
 from dotenv import load_dotenv
 
 # 从.env文件加载环境变量
@@ -158,7 +159,10 @@ async def value_agent(state: AgentState) -> AgentState:
             }
 
             # 调用 Agent执行分析
-            response = await agent.ainvoke(input_data)
+            response = await agent.ainvoke(
+                input_data,
+                config={"callbacks": [ToolUsageCallbackHandler(agent_name)]}
+            )
 
             end_time = time.time()
             execution_time = end_time - start_time

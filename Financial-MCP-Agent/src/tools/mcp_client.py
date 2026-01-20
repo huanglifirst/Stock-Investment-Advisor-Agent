@@ -10,6 +10,13 @@ _mcp_client_instance = None
 _mcp_tools = None
 
 
+def _unwrap_tool(tool):
+    """兼容旧的工具包装器，确保返回原始可用工具。"""
+    if tool.__class__.__name__ == "LoggedMCPTool" and hasattr(tool, "_tool"):
+        return tool._tool
+    return tool
+
+
 def print_tool_details(tools):
     """打印工具的详细信息，用于调试"""
     logger.info(f"{SUCCESS_ICON} 工具详细信息:")
@@ -60,7 +67,7 @@ async def get_mcp_tools():
             _mcp_tools = []  # Cache empty list on failure to load
             return []
 
-        _mcp_tools = loaded_tools
+        _mcp_tools = [_unwrap_tool(tool) for tool in loaded_tools]
         logger.info(
             f"{SUCCESS_ICON} Successfully loaded {len(_mcp_tools)} tools from 'a_share_mcp_v2'.")
 
